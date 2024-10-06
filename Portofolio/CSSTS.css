@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: url(bgkodok.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: darken;
+    color: white;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.TSY {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.TSY-text h2{
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.TSY-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.TSY-img img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin-left: 150px;
+}
+
+.TSY-text a{
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.TSY-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+.TSY-text a.butt{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.TSY-text a.butt i{
+    vertical-align: middle;
+    margin-right: 5px;
+}
